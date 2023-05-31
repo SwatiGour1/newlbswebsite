@@ -327,25 +327,26 @@ footer ul li {
   z-index: -1;
 }
 
-.vission-mission h3:before {
+/* .vission-mission h3:before {
   content: '';
   position: absolute;
   width: 65px;
   top: 22%;
   height: 4px;
   left:0;
-  background: #e67817;
-}
+  /* background: #e67817; 
+} */
 
 .vs p {
   font-family: trebuchet;
+  /* width:400px; */
 }
 
 .vs {
   position: relative;
   width: 100%;
-  /* padding-right: 15px; */
-  /* padding-left: 15px; */
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
 
