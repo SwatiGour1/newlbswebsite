@@ -91,6 +91,7 @@ b {
   color: #29166f;
   font-weight: 700;
 }
+
 .sec-title .divider {
   position: relative;
   display: inline-block;
@@ -98,7 +99,9 @@ b {
   width: 150px;
   text-align: center;
 }
-.sec-title .divider:before, .sec-title .divider:after {
+
+.sec-title .divider:before,
+.sec-title .divider:after {
   position: absolute;
   left: 0;
   top: 9px;
@@ -107,9 +110,11 @@ b {
   background-color: #29166f;
   content: "";
 }
-.fa-mortar-board:before{
+
+.fa-mortar-board:before {
   content: "\f19d";
 }
+
 .sec-title .divider:after {
   left: auto;
   right: 0;
@@ -130,7 +135,7 @@ b {
   /* Ensure the overlay does not overflow */
 
   /* Set the background image */
-  background-image: url('images/WhatsApp Image 2023-05-25 at 16.22.00.jpg');
+  background-image: url('image/lbs1.jpeg');
   background-size: cover;
   background-position: center;
 }
@@ -220,42 +225,52 @@ h5 {
   background-color: #0F0771;
   text-decoration: none;
 }
-.glrgrp{
-flex-wrap: wrap;
+
+.glrgrp {
+  flex-wrap: wrap;
 }
+
 .groups {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 1rem 0;
 }
+
 .group {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0 1.5rem;
 }
-.group img{
-    overflow-clip-margin: content-box;
-    overflow: clip;
+
+.group img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
-.counter {
-  color:#0F0771;
+
+.cr {
+  color: #0F0771;
 }
+
 .numbers div {
   margin: 0 2rem;
 }
-.counter span {
+
+.cr span {
   font-size: 1.25rem;
 }
-.counter p {
+
+.cr p {
   font-size: 1rem;
-    margin-top: 0;
-    margin-bottom: 1rem;
+  margin-top: 0;
+  margin-bottom: 1rem;
 }
-footer ul li{
+
+footer ul li {
   list-style: none;
 }
+
 .form-control {
   height: 30px;
   border-radius: 0;
@@ -266,3 +281,87 @@ footer ul li{
   font-size: 13px;
   text-transform: capitalize;
 }
+
+.p-17 {
+  font-family: trebuchet;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  word-wrap: none;
+  margin: 1rem;
+}
+
+.py-5 {
+  padding-bottom: 3rem;
+}
+
+.about-img {
+  position: relative;
+}
+
+.about-img .img_1 {
+  border-radius: 20px !important;
+  border: 1px solid rgb(100 107 160) !important;
+  background: #545d5c !important;
+  position: relative !important;
+  max-width: fit-content !important;
+  padding: 1rem !important;
+}
+
+.card-img {
+  width: 100%;
+  /* border-radius: calc(0.25rem - 1px); */
+}
+
+.border-line {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border: 0 !important;
+  top: 5px;
+  left: 5px;
+  z-index: -1;
+}
+
+.vission-mission h3:before {
+  content: '';
+  position: absolute;
+  width: 65px;
+  top: 22%;
+  height: 4px;
+  left:0;
+  background: #e67817;
+}
+
+.vs p {
+  font-family: trebuchet;
+}
+
+.vs {
+  position: relative;
+  width: 100%;
+  /* padding-right: 15px; */
+  /* padding-left: 15px; */
+}
+
+
+
+
+
+
+
+
+
+
+/* .row {
+   /* display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+} */
