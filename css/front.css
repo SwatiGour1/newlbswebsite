@@ -378,8 +378,17 @@ margin-left: 36rem;
 .sp2 {
     margin-left: 36rem;
 }
-
-
+.crbtn a{
+  background-color: #0F0771;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-family:trebuchet;
+}
+.crbtn p{
+  /* margin-right:20px; */
+  font-family:trebuchet;
+}
 
 
 
