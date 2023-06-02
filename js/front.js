@@ -16,3 +16,7 @@ else{
 }
 updatecounter();
 })
+
+function startBlinkAnimation(element) {
+element.classList.add("blink-animation");
+}
