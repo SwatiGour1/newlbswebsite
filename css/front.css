@@ -486,7 +486,7 @@ margin-left: 36rem;
   line-height: 1.4em;
   font-weight: 300;
 }
-.container-md button{
+.news button{
   background-color:#0F0771;
   position: relative;
   padding: 15px 35px;
@@ -502,19 +502,19 @@ margin-left: 36rem;
 
 
 
-.container-md button a{
+.news button a{
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-.container-md button:hover{
+.news button:hover{
   cursor: pointer;
   background-color:#A46767 ;
 }
-.container-md button:active{
+.news button:active{
   transform: scale(0.95);
 }
 
-.container-md a{
+.news a{
   font-size: 15px;
   font-weight: bold;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -544,13 +544,13 @@ margin-left: 36rem;
   }
 }
 
-.container-md-6{
+.news{
   background-color:#fff;
-  height: auto;
+  height:auto;
   margin-bottom: 12px;
 }
 
-.card{
+.newscard{
   margin-top: 80px;
   box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.201), /* Top shadow */
   0px -4px 6px -2px rgba(0, 0, 0, 0.1), /* Bottom shadow */
@@ -560,7 +560,7 @@ margin-left: 36rem;
   height: 300px;
 }
 
-.card:hover{
+.newscard:hover{
   transform: scale(0.9);
 }
 
@@ -585,7 +585,7 @@ margin-left: 36rem;
     opacity: 1;
   }
 }
-.container-md-6 .btn{
+.news .btn{
   background-color: #0F0771;
   color: #fff;
   padding: 3px 25px;
@@ -626,7 +626,88 @@ margin-left: 36rem;
   padding: 0.4rem;
   border: 2px solid var(--main-color);
 }
+/* activity */
+.activity button{
+  background-color:#0F0771;
+  position: relative;
+ padding:15px 35px; 
+ margin-left: 18.3%;
+  top: 20px;
+  border: none;
+  /* @media screen and (max-width: 768px) {
+    margin-left: 5%;
+    
+  
+} */
+}
 
+.activity button:active{
+  transform: scale(0.95);
+}
+
+/* .container-md button:first-of-type{
+  background-color:#A46767 ;
+} */
+
+.activity button a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.activity button:hover{
+  cursor: pointer;
+  background-color:#A46767 ;
+}
+.activity button:active{
+  transform: scale(0.95);
+}
+
+.activitycard{
+  margin-top: 100px;
+  border: none;
+  /* margin-left: 120px; */
+  
+}
+
+.activitycard .card-body .btn{
+    color: #fff;
+    background-color: #0F0771;
+   
+}
+
+.activitycard .card-body .btn:hover{
+    background-color: #A46767;
+}
+
+
+
+.activitycard .card-body .card-title{
+  color: #0F0771;
+  font-size: 24px;
+  animation: bottomToTop 2s ease-in-out;
+}
+.activitycard .card-body .card-text{
+  font-size: medium;
+  font-family:calibri;
+ 
+}
+
+.activitycard .card-body .img-fuild{
+  width: 100%;
+  height: auto;
+  animation: bottomToTop 2s ease-in-out;
+}
+@keyframes bottomToTop {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  
+  50% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+}
 
 
 
