@@ -197,8 +197,10 @@ h5 {
 
 
 .left-btn {
-  background-color: #0F0771;
-  color: white;
+  /* background-color: #0F0771; */
+  background-color: white;
+  /* color: white; */
+  color: #0F0771;
   /* Set the text color of the button */
   border: none;
   /* Remove the default button border */
@@ -213,7 +215,9 @@ h5 {
 }
 
 .right-btn {
-  color: white;
+  /* color: white; */
+  background-color: white;
+  color:#0F0771;
   /* Set the text color of the button */
   border: none;
   /* Remove the default button border */
@@ -222,7 +226,7 @@ h5 {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 23% 0%);
   /* Set the left-cut polygon shape using coordinates */
   position: relative;
-  background-color: #0F0771;
+  /* background-color: #0F0771; */
   text-decoration: none;
 }
 
@@ -587,6 +591,40 @@ margin-left: 36rem;
   padding: 3px 25px;
   border-radius: 15px 0px 15px 0px ;
   
+}
+.card11 {
+  border: 2px solid var(--main-color);
+  margin-top: 3rem;
+  border-radius: 2rem;
+  box-shadow: 2px 3px 8px 3px black;
+}
+
+.btn1 {
+  background-color: var(--main-color);
+  color: var(--color);
+  border-radius: 20rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  text-align: center;
+}
+
+.card-title11 {
+  margin-bottom: 2rem;
+  color: var(--main-color);
+  text-transform: uppercase;
+}
+
+.card-body11 {
+  margin: 1rem;
+}
+.btn11 {
+  background-color: var(--color);
+  color: var(--main-color);
+  border-radius: 0.6rem;
+  padding: 0.4rem;
+  border: 2px solid var(--main-color);
 }
 
 
