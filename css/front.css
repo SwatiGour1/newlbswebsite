@@ -678,8 +678,6 @@ margin-left: 36rem;
     background-color: #A46767;
 }
 
-
-
 .activitycard .card-body .card-title{
   color: #0F0771;
   font-size: 24px;
@@ -708,9 +706,213 @@ margin-left: 36rem;
   }
   
 }
+/* contact css */
+#map {
+  height: 300px;
+  
+}
+.text{
+color: #0F0771;
+font-weight: bold;
+font-size:20px;
+}
+.contactglr{
+margin-bottom: 6px;
+height: auto;
+margin-top: 12px;
+
+}
+
+.contactglr p{
+font-size: 16px;
+font-weight: bold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:black ;
+text-align:center;
+margin-top: 30px;
+
+}
+
+.contact-form input[type="email"],
+          input[type="text"]{
+border: 1px solid #0F0771;
 
 
+}
+.form-control{
+border: 1px solid #0F0771;
+}
 
+.contact-form {
+  padding: 20px;
+  
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  color:#0F0771;
+}
+.btn{
+  background-color: #0F0771 ;
+  margin-top: 12px;
+}
+label{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* .background-image-overlay {
+position: relative;
+height: 200px; 
+text-align: center;
+color: white;
+padding: 20px;
+overflow: hidden;
+background-image: url('images/WhatsApp Image 2023-05-25 at 16.22.00.jpg');
+background-size: cover;
+background-position: center;
+}
+
+.background-image-overlay::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 255, 0.422); 
+}
+
+.background-image-overlay h1 {
+font-size: 42px;
+margin-top: 70px; 
+color:white;
+font-weight: bold;
+position: relative;
+}
+.container-md-6 h3{
+font-size: 28px;
+font-weight: bold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color:#0F0771 ;
+margin-top: 60px;
+text-align: center;
+}
+.subtract-line {
+position: relative;
+text-align: center;
+margin: 20px 0;
+}
+
+.subtract-line::before {
+content: '';
+position: absolute;
+top: 50%;
+left: 550px;
+right: 550px;
+height: 2px;
+background-color:#0F0771;
+transform: translateY(-50%);
+}
+
+.subtract-line::after {
+content: '';
+position: absolute;
+top: 50%;
+left: 50%;
+width: 10px;
+height: 2px;
+background-color: #fff;
+transform: translate(-50%, -50%);
+}
+
+.icon {
+position: relative;
+display: inline-block;
+padding: 0 10px;
+background-color: #fff;
+z-index: 1;
+width: 55px;
+height: 30px;
+} */
+.contactcard{
+margin-top: 80px;
+margin-bottom: 50px;
+height: 300px;
+padding: 10px 10px;
+box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.201), /* Top shadow */
+0px -4px 6px -2px rgba(0, 0, 0, 0.1), /* Bottom shadow */
+4px 0px 6px -2px rgba(0, 0, 0, 0.1), /* Left shadow */
+-4px 0px 6px -2px rgba(0, 0, 0, 0.1); /* Right shadow */
+transition: transform 0.3s ease-in-out;
+}   
+.contactcard:hover{
+transform: scale(0.9);
+}
+.contactcard h5{
+color:#0F0771;
+text-align: center;
+margin-top: 20px;
+}
+.background-image-overlay-2{
+position: relative;
+height: auto; 
+text-align: center;
+color: white;
+padding: 20px;
+overflow: hidden;
+background-image: url("I:/project1/image/lbs3.jpg");
+background-size: cover;
+background-position: center;
+top: 0px;
+}
+.background-image-overlay-2::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 255, 0.422); 
+}
+.background-image-overlay-2 h1{
+font-size: 48px;
+top: 60px; 
+color:white;
+font-weight: bold;
+position: relative;
+}
+
+.background-image-overlay-2 .image-grid{
+width: 100%;
+padding: 140px 140px 140px 140px;
+position: relative;
+display: grid;
+justify-content: center;
+gap: 20px; /* Adjust the spacing between images as needed */
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
+z-index: 1;
+}
+.background-image-overlay-2 .image-grid img{
+width: 100%;
+height: 100%;
+display: block;
+object-fit: cover;
+/* border: 2px solid goldenrod; */
+padding: 5px;
+border-radius: 15px 0px 15px 0px;
+position: relative;
+opacity: 0;
+transform: translateY(20px);
+transition: opacity 0.9s, transform 0.9s;
+}
+
+.background-image-overlay-2 .image-grid img.animate {
+opacity: 1;
+transform: translateY(0);
+}
+.subbtn{
+  margin-top: 0;
+}
 
 
 
