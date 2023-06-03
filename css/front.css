@@ -490,21 +490,15 @@ margin-left: 39.5rem;
   line-height: 1.4em;
   font-weight: 300;
 }
-.news button{
+/* news */
+/* .news button{
   background-color:#0F0771;
   position: relative;
   padding: 15px 35px;
   margin-left: 12.5%;
   top: 20px;
   border: none;
-  /* @media screen and (max-width: 768px) {
-    margin-left: 5%;
-    
-  
-} */
 }
-
-
 
 .news button a{
   text-decoration: none;
@@ -556,10 +550,10 @@ margin-left: 39.5rem;
 
 .newscard{
   margin-top: 80px;
-  box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.201), /* Top shadow */
-  0px -4px 6px -2px rgba(0, 0, 0, 0.1), /* Bottom shadow */
-  4px 0px 6px -2px rgba(0, 0, 0, 0.1), /* Left shadow */
-  -4px 0px 6px -2px rgba(0, 0, 0, 0.1); /* Right shadow */
+  box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.201), /* Top shadow 
+  0px -4px 6px -2px rgba(0, 0, 0, 0.1), /* Bottom shadow 
+  4px 0px 6px -2px rgba(0, 0, 0, 0.1), /* Left shadow 
+  -4px 0px 6px -2px rgba(0, 0, 0, 0.1); /* Right shadow 
   transition: transform 0.3s ease-in-out;
   height: 300px;
 }
@@ -595,7 +589,112 @@ margin-left: 39.5rem;
   padding: 3px 25px;
   border-radius: 15px 0px 15px 0px ;
   
+} */
+.news button{
+  background-color:#0F0771;
+  position: relative;
+  padding: 15px 35px;
+  margin-left: 12.5%;
+  margin-top: 20px;
+  border: none;
+  @media screen and (max-width: 768px) {
+}}
+
+
+
+.news button a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
 }
+.news button:hover{
+  cursor: pointer;
+  background-color:#A46767 ;
+}
+.news button:active{
+  transform: scale(0.95);
+}
+.news button:first-of-type{
+  background-color:#A46767 ;
+}
+.news a{
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:crimson;
+  margin-top: 20px;
+}
+
+.blink-icon {
+  width: 32px;
+  height: 28px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  margin-left: 8px;
+ 
+}
+
+.blink-animation {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+ .news{
+  background-color:#fff;
+  height: auto;
+  margin-bottom: 12px;
+} 
+
+.newscard{
+  margin-top: 80px;
+  box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.201), /* Top shadow */
+  0px -4px 6px -2px rgba(0, 0, 0, 0.1), /* Bottom shadow */
+  4px 0px 6px -2px rgba(0, 0, 0, 0.1), /* Left shadow */
+  -4px 0px 6px -2px rgba(0, 0, 0, 0.1); /* Right shadow */
+  transition: transform 0.3s ease-in-out;
+  height: 300px;
+}
+
+.newscard:hover{
+  transform: scale(0.9);
+}
+
+.blink-icon {
+  width: 32px;
+  height: 28px;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  margin-left: 8px;
+ 
+}
+
+.blink-animation {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+ .news .btn{
+  background-color: #0F0771;
+  color: #fff;
+  padding: 3px 25px;
+  border-radius: 15px 0px 15px 0px ;
+  
+} 
+/* result */
 .card11 {
   border: 2px solid var(--main-color);
   margin-top: 3rem;
@@ -643,10 +742,6 @@ margin-left: 39.5rem;
 .activity button:active{
   transform: scale(0.95);
 }
-
-/* .container-md button:first-of-type{
-  background-color:#A46767 ;
-} */
 
 .activity button a{
   text-decoration: none;
