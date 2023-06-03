@@ -191,10 +191,10 @@ h5 {
 
 
 .fhr {
-  width: 450px;
+  width: 470px;
   height: 2px;
   color: #0F0771;
-  margin-left: 20rem;
+  margin-left:18rem;
 }
 
 
@@ -947,14 +947,76 @@ b {
   margin-left: 15rem;
   font-family:trebuchet;
 }
+/* committee css */
+.commitee .card img {
+  border-radius: 50%;
+  width: 15rem;
+  height: 11rem;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  border: none;
+}
 
+.commitee .card:hover {
+  background: linear-gradient(#0F0771, white)
+}
 
+.commitee {
+  height: 28rem;
+  border: 2px solid;
+  background-color: var(--main-color);
+}
 
-/* .row {
-   /* display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
-} */
+.commitee h1 {
+  text-align: center;
+  margin-top: 1rem;
+  color: var(--color);
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 3rem;
+}
+/* classroom */
+.mockImg{
+  width: 350px;
+  border-radius: 5px;
+}
+.mockHeading{
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+.mockDes{
+  text-align: justify;
+  font-size: 18px;
+}
+
+.mockHeading1{
+  color: #082E66;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 0px;
+  text-align: justify;
+}
+
+.mockDes1{
+  text-align: justify;
+  font-size: 18px;
+}
+/* library */
+.beneHeading{
+  color: navy;
+  /* font-weight: 700; */
+}
+.benePara{
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 4rem;
+}
+.beneBack{
+  /* width: 50%; */
+  background-color: #eaf1fd;
+  /* padding: 100px; */
+  border-radius: 5px;
+}
