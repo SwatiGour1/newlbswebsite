@@ -617,63 +617,74 @@ margin-left: 39.5rem;
   border: 2px solid var(--main-color);
 }
 /* activity */
-.activity button{
+.container-activity-one h3{
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color:#0F0771 ;
+  margin-top: 60px;
+  text-align: center;
+}
+.container-activity-one button{
   background-color:#0F0771;
- 
+  position: relative;
   padding: 15px 35px;
-  margin-left: 19.3%;
+  margin-left: 20%;
   margin-top: 20px;
   border: none;
-  }
-
-.activity button:active{
-  transform: scale(0.95);
+  @media screen and (max-width: 768px) {
+}
 }
 
-.activity button a{
+.container-activity-one button a{
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
-.activity button:hover{
+
+.container-activity-one button:hover{
   cursor: pointer;
-  background-color:#A46767 ;
+  background-color: #A46767;
 }
-.activity button:active{
+
+.container-activity-one button:active{
   transform: scale(0.95);
 }
 
+.container-activity-one button:first-of-type{
+  background-color: #A46767;
+}
 
-.activity .activitycard{
+.container-activity-one .card{
   margin-top: 120px;
   border: none;
   margin-left: 120px;
   
 }
 
-.activitybody .btn{
+.container-activity-one .card-body .btn{
     color: #fff;
     background-color: #0F0771;
    
 }
 
-.activitybody .btn:hover{
+.container-activity-one .card-body .btn:hover{
     background-color: #A46767;
 }
 
 
 
-.card-body .card-title{
+.container-activity-one .card-body  .card-title{
   color: #0F0771;
   font-size: 24px;
   animation: bottomToTop 2s ease-in-out;
 }
-.card-body .card-text{
+.container-activity-one .card-body .card-text{
   font-size: medium;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  
 }
 
-.card-body .img-fuild{
+.container-activity-one .card-body .img-fuild{
   width: 100%;
   height: auto;
   animation: bottomToTop 2s ease-in-out;
