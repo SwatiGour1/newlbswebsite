@@ -628,7 +628,7 @@ margin-left: 39.5rem;
   margin-top: 60px;
   text-align: center;
 }
-.container-activity-one button{
+.container-activity-one .button{
   background-color:#0F0771;
   position: relative;
   padding: 15px 35px;
@@ -638,21 +638,21 @@ margin-left: 39.5rem;
  
 }
 
-.container-activity-one button a{
+.container-activity-one .button a{
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
 
-.container-activity-one button:hover{
+.container-activity-one .button:hover{
   cursor: pointer;
   background-color: #A46767;
 }
 
-.container-activity-one button:active{
+.container-activity-one .button:active{
   transform: scale(0.95);
 }
 
-.container-activity-one button:first-of-type{
+.container-activity-one .button:first-of-type{
   background-color: #A46767;
 }
 
@@ -687,8 +687,8 @@ margin-left: 39.5rem;
 }
 
 .container-activity-one .card-body .img-fuild{
-  width: 80%;
-  height: auto;
+  width: 70%;
+  height:70%;
   animation: bottomToTop 2s ease-in-out;
   /* border: 3px solid #A46767; */
   
