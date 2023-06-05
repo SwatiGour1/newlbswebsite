@@ -134,7 +134,7 @@
   /* Ensure the overlay does not overflow */
 
   /* Set the background image */
-  background-image:url('lbs3.jpg');
+  background-image:url('../image/lbs3.jpg');
   background-size: cover;
   background-position: center;
 }
