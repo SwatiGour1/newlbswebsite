@@ -34,8 +34,7 @@
 
 #carouselExampleSlidesOnly img {
   height: 480px;
-}
-
+  }
 .nav-item a {
   color: var(--main-color);
   font-size: 19px;
@@ -984,6 +983,7 @@ b {
     margin-top: 30px;
     margin-left: 50px;
 }
+
 .container-biomatric-one .btn{
     background-color: #0F0771;
     margin-top: 12px;
@@ -995,5 +995,32 @@ b {
     position: absolute;
     right: 120px;
     margin-top:108px;
-    
-}
+    }
+    /* .popbox{
+      border: 2px solid grey;
+      border-radius: 30px;
+      padding: 30px 40px;
+      position: absolute;
+      transform: translate(-50%,-50%);
+      left: 50%;
+      top: 70%;
+      background-color: white;
+    }
+    .popbox img{
+      width: 60%;
+      margin-left: 100px;
+    }
+    .popbox h3{
+      animation: change 2s linear 1s infinite;
+    }
+@keyframes change {
+  from {
+    background-color: red;
+    color: var(--color);
+  }
+
+  to {
+    background-color: var(--main-color);
+    color: var(--color);
+  }
+} */
