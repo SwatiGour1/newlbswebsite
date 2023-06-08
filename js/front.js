@@ -38,10 +38,7 @@ function initMap() {
       title: 'Our Location'
     });
   }
-
-
-
-  window.addEventListener('scroll', checkScroll);
+ window.addEventListener('scroll', checkScroll);
 
 function checkScroll() {
 const imageElements = document.querySelectorAll('.image-grid img');
@@ -64,14 +61,14 @@ function myfunction() {
 function MyClose(){
 confirm("do you want to close this");
 }
-// var p=document.querySelector(".popbox");
-// function pop(){
-//  setTimeout(
-//     function(){
-//      p.style.display="block";
-//   },1000)
-// }
-// let f=document.querySelector(".popbox")
-// function close(){
-// f.style.display='none';
-// }
+
+// window.addEventListener("load",function(){
+//   setTimeout(
+//     function open(event){
+//       document.querySelector(".popbox").style.display='block';
+//     },1000
+//   )
+// })
+// document.querySelector("#close").addEventListener("click",function(){
+//   document.querySelector(".popbox").style.display='none';
+// })
