@@ -47,7 +47,9 @@
   font-family:trebuchet;
   font-weight: 600;
 }
-
+.container-fluid a:hover{
+  color: #0F0771;
+}
 .navbar .lr {
   margin-left: 2px;
   color: white;
@@ -83,12 +85,13 @@
   align-items: center;
 }
 
-.sec-title h2 {
+.sec-title h1 {
   position: relative;
   display: block;
   line-height: 1.2em;
   color: #29166f;
   font-weight: 700;
+  font-size:47px;
 }
 
 .sec-title .divider {
@@ -205,10 +208,10 @@ h5 {
   /* Remove the default button border */
   padding: 10px 50px;
   /* Set the padding around the button text */
-  clip-path: polygon(0 0, 100% 0, 100% 0%, 75% 100%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 0%, 75% 100%, 0 100%); */
   /* Set the cut-out shape using polygon coordinates */
-  position: relative;
-  left: 37px;
+  /* position: relative; */
+ margin-left: 30px;
   height: 40px;
   text-decoration: none;
 }
@@ -221,11 +224,12 @@ h5 {
   /* Remove the default button border */
   padding: 10px 50px;
   /* Set the padding around the button text */
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 23% 0%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 23% 0%); */
   /* Set the left-cut polygon shape using coordinates */
-  position: relative;
+  /* position: relative; */
   /* background-color: #0F0771; */
   text-decoration: none;
+  margin-left: 4px;
 }
 
 .glrgrp {
