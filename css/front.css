@@ -25,7 +25,7 @@
   font-weight: bolder;
 }
 .hp1{
-  margin-left: 11rem;
+  margin-left:8rem;
   font-family:trebuchet;
   text-transform:uppercase;
   letter-spacing: 0.2;
@@ -1031,8 +1031,3 @@ b {
   background-color: white;
   /* border: none; 
 } */
-@media(min-width:1280px) {
-  .navbar .lr{
-    display: inline;
-  }
-}
