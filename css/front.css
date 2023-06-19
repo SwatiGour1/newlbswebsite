@@ -8,7 +8,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.img1{
+  margin-left: 70px;
+}
 .hp {
   color: white;
   text-transform: capitalize;
@@ -47,9 +49,9 @@
   font-family:trebuchet;
   font-weight: 600;
 }
-.container-fluid a:hover{
-  color: #0F0771;
-}
+/* .container-fluid a:hover{
+transform: none;
+} */
 .navbar .lr {
   margin-left: 2px;
   color: white;
@@ -57,6 +59,7 @@
   animation: change 2s linear 1s infinite;
   border: none;
   margin-top: 1px;
+  width: 112px;
 }
 
 @keyframes change {
@@ -856,9 +859,9 @@ b {
   border: none;
 }
 
-.commitee .card:hover {
+/* .commitee .card:hover {
   background: linear-gradient(#0F0771, white)
-}
+} */
 
 .commitee {
   height: 28rem;
@@ -1028,3 +1031,8 @@ b {
   background-color: white;
   /* border: none; 
 } */
+@media(min-width:1280px) {
+  .navbar .lr{
+    display: inline;
+  }
+}
