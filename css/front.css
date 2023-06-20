@@ -8,8 +8,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+.pimg:hover{
+  transform: scale(0.98);
+}
+ /*.img-fluid:hover{
+   width: 100%;
+  transition:.5s ease-in-out;
+} */
 .img1{
-  margin-left: 70px;
+  margin-left: 80px;
 }
 .hp {
   color: white;
@@ -17,8 +24,7 @@
   letter-spacing: -1px;
   font-family:trebuchet;
   font-weight: 600;
-  word-spacing: 1rem;
-
+  word-spacing: 0.9rem;
 }
 .hp3{
   font-size: 2rem;
