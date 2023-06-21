@@ -11,9 +11,12 @@
 .pimg:hover{
   transform: scale(0.98);
 }
- /*.img-fluid:hover{
-   width: 100%;
-  transition:.5s ease-in-out;
+ /* .img-fluid{
+   /* width: 100%; */
+  /* transition:.5s ease-out; 
+.img-fluid:hover{
+   transform: scale(0.10); 
+  width: 100%;
 } */
 .img1{
   margin-left: 80px;
