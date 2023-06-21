@@ -36,6 +36,9 @@
   text-transform:uppercase;
   letter-spacing: 0.2;
 }
+#hover1{
+  color: #0F0771 !important;
+}
 #carouselExample {
   margin-top: 0;
 }
@@ -930,7 +933,7 @@ b {
 .training5{
   color: black;
   margin-top: 5rem;
-  margin-left: 5rem;
+  margin-left: 6rem;
 }
 .training3{
   margin-left: 1rem;
@@ -949,9 +952,9 @@ b {
   margin-left: 1rem;
   margin-right: 20rem;
 }
-.pt{
+/* .pt{
   margin-left: 2rem;
-}
+} */
 .h22{
   font-weight: bold;
  margin-top: 1rem;
