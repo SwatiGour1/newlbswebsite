@@ -1087,10 +1087,10 @@ b {
   background-color: white;
   /* border: none; 
 } */
-@media screen and (max-width:468px) {
-  #navh a{
-    font-size:40rem;
-  }
+@media screen and (min-width:468px) {
+  #aboutp{
+    margin-right:20px;}
+
 }
 @media screen and (min-width:992px) and (max-width:1100px) {
   #navh ul li a{
