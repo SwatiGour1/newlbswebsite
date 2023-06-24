@@ -319,6 +319,9 @@ h5 {
   opacity: 0.5;
   color: var(--color);
 }
+#div1,#div2,#div3{
+  text-align: justify;
+}
 footer ul li {
   list-style: none;
 }
@@ -1084,3 +1087,36 @@ b {
   background-color: white;
   /* border: none; 
 } */
+@media screen and (max-width:468px) {
+  #navh a{
+    font-size:40rem;
+  }
+}
+@media screen and (min-width:992px) and (max-width:1100px) {
+  #navh ul li a{
+    padding:1px;
+    margin:1px;
+}
+#btnh{
+  display: none;
+}
+}
+@media screen and (max-width:1300px){
+#navh ul li a{
+  padding:1px;
+  margin:1px;
+  font-size: 20px;
+}
+#navh ul li ul li a{
+  font-size: 24px;
+}
+}
+@media screen and (min-width:1500px){
+  #navh  a {
+    font-size: 23px;
+    padding: 3px;
+  }
+  #btnh a{
+    width: 130px;
+  }
+}
