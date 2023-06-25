@@ -1089,7 +1089,7 @@ b {
 } */
 @media screen and (min-width:468px) {
   #aboutp{
-    margin-right:20px;}
+    margin-right:30px;}
 
 }
 @media screen and (min-width:992px) and (max-width:1100px) {
@@ -1100,6 +1100,7 @@ b {
 #btnh{
   display: none;
 }
+
 }
 @media screen and (max-width:1300px){
 #navh ul li a{
