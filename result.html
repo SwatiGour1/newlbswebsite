@@ -132,12 +132,6 @@
     <div class="background-image-overlay container-fluid pt-0">
         <h1>Result</h1>
     </div>
-    <!-- <div class="sec-title text-center mb-3 container-fluid" data-aos="fade-up" data-aos-duration="990">
-        <h2 class="pt-5 fw-bold fs-1">LBS College</h2>
-        <div class="divider">
-            <span class="fa fa-mortar-board"></span>
-        </div> 
-    </div> -->
     <div class="container mb-3 p-3 card11" style="max-width: 38rem;">
         <div class="card-header">
             <h5 class="card-title11">
@@ -147,51 +141,38 @@
         <div class="card-body11 text-primary">
             <div class="input-group">
                 <div class="input-group-text" id="btnGroupAddon"><strong> Acedemic Year* </strong> </div>
-                <input type="text" class="form-control" placeholder=" --Enter Year--" aria-label="Input group example"
-                    aria-describedby="btnGroupAddon">
-                <!-- <div class="btn-group justify-content-md-end" role="group">
-                    <button type="button" class="btn11  dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        2023
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">2022</a></li>
-                        <li><a class="dropdown-item" href="#">2021</a></li>
-                        <li><a class="dropdown-item" href="#">2020</a></li>
-                    </ul>
-                </div> -->
+                <select class="form-select form-select-lg " aria-label=".form-select-lg example">
+                    <option selected>--Select Year--</option>
+                    <option value="1">2023</option>
+                    <option value="2">2022</option>
+                    <option value="3">2021</option>
+                  </select>
             </div>
         </div>
 
         <div class="card-body11 text-primary">
             <div class="input-group">
                 <div class="input-group-text " id="btnGroupAddon"><strong> Exam Name*</strong> </div>
-                <input type="text" class="form-control" placeholder=" --Enter Name--" aria-label="Input group example"
-                    aria-describedby="btnGroupAddon">
-                <!-- <div class="btn-group justify-content-md-end" role="group">
-                    <button type="button" class="btn11  dropdown-toggle" data-bs-toggle="dropdown"
-                        aria-expanded="false">
-                        Select
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Select</a></li>
-                        <li><a class="dropdown-item" href="#">B.SC</a></li>
-                        <li><a class="dropdown-item" href="#">B.C.A</a></li>
-                        <li><a class="dropdown-item" href="#">B.B.A</a></li>
-                        <li><a class="dropdown-item" href="#">B.A</a></li>
-                    </ul> 
-                </div>-->
+                <select class="form-select form-select-lg " aria-label=".form-select-lg example">
+                    <option selected>--Select Name--</option>
+                    <option value="1">B.SC</option>
+                    <option value="2">BCA</option>
+                    <option value="3">BBA</option>
+                    <option value="3">BA</option>
+                    <option value="3">B.COM</option>
+                  </select>
             </div>
         </div>
 
         <div class="card-body11 text-primary">
             <div class="input-group">
-                <div class="input-group-text" id="btnGroupAddon"><strong>Roll No*</strong> </div>
-                <input type="text" class="form-control" placeholder=" --Enter Your Roll No--"
-                    aria-label="Input group example" aria-describedby="btnGroupAddon">
+                <div class="input-group-text " id="btnGroupAddon"><strong> Roll No</strong> </div>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Enter your roll number">
+                  </div>
+                
             </div>
         </div>
-
         <div class="d-grid gap-2 d-md-flex justify-content-md-center">
             <button class="btn1  me-md-2" type="button" onclick="myfunction()">View Result</button>
             <button class="btn1 " type="button" onclick="MyClose()">Close</button>
