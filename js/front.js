@@ -17,27 +17,7 @@ else{
 updatecounter();
 })
 // news js
-$(document).ready(function() {
-  $('.btnn').click(function() {
-    var cardDetails = $(this).siblings('.card-details');
-    if (cardDetails.is(':visible')) {
-      cardDetails.slideUp();
-    } else {
-      $('.card-details').slideUp();
-      cardDetails.slideDown();
-    }
-  });
 
-  $(document).click(function(event) {
-    var target = $(event.target);
-    if (!target.closest('.card  ').length) {
-      $('.card-details').slideUp();
-    }
-  });
-});
-function startBlinkAnimation(element) {
-element.classList.add("blink-animation");
-}
 
 function initMap() {
     // Specify your latitude and longitude coordinates
